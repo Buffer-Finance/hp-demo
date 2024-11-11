@@ -1,0 +1,32 @@
+.theme-dark:root {
+	--tv-color-platform-background: #0f2320;
+	--tv-color-pane-background: #0f2320;
+	--tv-color-toolbar-button-background-hover: #233734;
+	--tv-color-toolbar-button-background-expanded: #233734;
+	--tv-color-toolbar-button-background-active: #98f8e1;
+	--tv-color-toolbar-button-background-active-hover: #233734;
+	--tv-color-toolbar-button-text: ##c2cfcd;
+	--tv-color-toolbar-button-text-hover: ##c2cfcd;
+	--tv-color-toolbar-button-text-active: #98f8e1;
+	--tv-color-toolbar-button-text-active-hover: #98f8e1;
+	--tv-color-item-active-text: #98f8e1;
+	--tv-color-toolbar-toggle-button-background-active: #233734;
+	--tv-color-toolbar-toggle-button-background-active-hover: #233734;
+	--tv-color-toolbar-divider-background: #213630;
+	--tv-color-toolbar-save-layout-loader: rgb(106, 109, 120);
+
+	--tv-color-popup-background: #0f2320;
+	--tv-color-popup-element-text: #c2cfcd;
+	--tv-color-popup-element-text-hover: #f2fdfb;
+	--tv-color-popup-element-background-hover: #233734;
+	--tv-color-popup-element-divider-background: #213630;
+	--tv-color-popup-element-secondary-text: #f2fdfb;
+	--tv-color-popup-element-hint-text: #f2fdfb;
+	--tv-color-popup-element-text-active: #98f8e1;
+	--tv-color-popup-element-background-active: #233734;
+	--tv-color-popup-element-toolbox-text: #c2cfcd;
+	--tv-color-popup-element-toolbox-text-hover: #f2fdfb;
+	--tv-color-popup-element-toolbox-text-active-hover: #f2fdfb;
+	--tv-color-popup-element-toolbox-background-hover: #233734;
+	--tv-color-popup-element-toolbox-background-active-hover: #233734;
+}

@@ -1,0 +1,107 @@
+body {
+	@apply bg-[#050C0A] text-foreground text-sm antialiased font-inter;
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+}
+
+@layer utilities {
+	.flex-row-center {
+		@apply flex items-center gap-2;
+	}
+
+	.custom-scrollbar {
+		@apply scrollbar-thin scrollbar-thumb-[#3a534f] scrollbar-track-[#132e2a];
+
+		&::-webkit-scrollbar-button {
+			display: none;
+		}
+	}
+
+	.animate-fade-in {
+		animation: fadeIn 0.8s ease-out;
+	}
+
+	.animate-fade-in-delayed {
+		animation: fadeIn 0.8s ease-out 0.2s forwards;
+		opacity: 0;
+	}
+
+	.animate-slide-down {
+		animation: slideDown 0.3s ease-out;
+	}
+
+	.animate-marquee {
+		animation: marquee 20s linear infinite;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes slideDown {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes marquee {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}
+
+.collapsible-content {
+	overflow: hidden;
+
+	@keyframes slideDownCollapsible {
+		from {
+			height: 0;
+		}
+		to {
+			height: var(--radix-collapsible-content-height);
+		}
+	}
+
+	@keyframes slideUpCollapsible {
+		from {
+			height: var(--radix-collapsible-content-height);
+		}
+		to {
+			height: 0;
+		}
+	}
+
+	&[data-state="open"] {
+		animation: slideDownCollapsible 300ms ease-out;
+	}
+	&[data-state="closed"] {
+		animation: slideUpCollapsible 300ms ease-out;
+	}
+}
+
+#chart-container {
+	iframe {
+		width: 100% !important;
+		height: 100% !important;
+	}
+}
