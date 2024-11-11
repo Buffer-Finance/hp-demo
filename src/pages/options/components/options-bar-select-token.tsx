@@ -22,7 +22,7 @@ import { isGteMd, useBreakpoint } from "@/hooks/use-breakpoint";
 
 const assetData = [
 	{
-		icon: ICTokenBTC,
+		icon: ICTokenBtc,
 		asset: "BTC-USD",
 		change: "75114.45",
 		changePercentage: 0.9,
@@ -31,7 +31,7 @@ const assetData = [
 		openDown: "3.40 USDC",
 	},
 	{
-		icon: ICTokenETH,
+		icon: ICTokenEth,
 		asset: "ETH-USD",
 		change: "2821.22",
 		changePercentage: 6.9,

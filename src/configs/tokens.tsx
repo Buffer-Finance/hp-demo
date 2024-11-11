@@ -33,7 +33,7 @@ export const tokens = {
 	BTC: {
 		name: "Bitcoin",
 		symbol: "BTC",
-		icon: ICTokenBTC,
+		icon: ICTokenBtc,
 		priceSymbol: "BTCUSDT",
 		networks: {
 			mainnet: {},
@@ -48,7 +48,7 @@ export const tokens = {
 	ETH: {
 		name: "Ethereum",
 		symbol: "ETH",
-		icon: ICTokenETH,
+		icon: ICTokenEth,
 		priceSymbol: "ETHUSDT",
 		networks: {
 			mainnet: {},

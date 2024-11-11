@@ -3,7 +3,6 @@ import HomeBannerPartners from "./home-banner-partners";
 import HomeBannerTradingAnimation from "./home-banner-trading-animation";
 import useHome from "../hooks/use-home";
 import DisplayNumber from "@/components/global/display-number";
-import { Button } from "@/components/ui/button";
 
 export default function HomeBanner() {
 	const { tokensPrice } = useHome();
